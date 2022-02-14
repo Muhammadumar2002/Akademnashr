@@ -4,11 +4,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>1-dars</title>
+  <title>CSS asoslari</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-  <header><a href="index.html">
+  <header class="site-header">
+    <a href="index.html">
     <img src="img/logo.svg" alt="Akademnashr logo" width="227" height="60">
 
     <header>
@@ -16,53 +18,61 @@
       <nav>
         <ul>
           <li>
-            <a href="#">Bosh sahifa</a>
-            <a href="#">Kitoblar</a>
-            <a href="#">Aksiyalar</a>
-            <a href="#">Kontaktlar</a>
+            <a class="sitenav-link" href="#">Bosh sahifa</a >
+            <a class="sitenav-link" href="#">Kitoblar</a>
+            <a class="sitenav-link" href="#">Aksiyalar</a>
+            <a class="sitenav-link" href="#">Kontaktlar</a>
           </li>
         </ul>
       </nav>
 
 
-      <a href="">Ro'yhatdan o'tish</a>
+      <a class="main-link" href="#" >Ro'yhatdan o'tish </a>
     </header>
-
-    <main>
-      <!-- Hero -->
 
 
       <main>
         <!-- Hero -->
-          <section>
+          <section class="hero">
+            <div class="hero-content">
+              <hr class="orange-line">
+            <h2 class="hero-heading">Pythonda dasturlash asoslari</h2>
 
-          <h2>Pythonda dasturlash asoslari</h1>
+            <p class="hero-text">Dasturlash asoslariga oid o‘zbek tilidagi ilk eng mukammal qo‘llanma. Kitobning har bir bo‘limi uchun maxsus video darslar yozilgan bo‘lib, ularga kitobda ko‘rsatilgan QR kod orqali o‘tish mumkin.</p>
 
-            <p>Dasturlash asoslariga oid o‘zbek tilidagi ilk eng mukammal qo‘llanma. Kitobning har bir bo‘limi uchun maxsus video darslar yozilgan bo‘lib, ularga kitobda ko‘rsatilgan QR kod orqali o‘tish mumkin.</p>
-            <a href="#">Buyurtma berish</a>
-          </section>
+              <a  class="main-link" href="#">Buyurtma berish</a>
 
-          <img src="img/python-book.jpg" alt="Qo'lda ushlab turilgan Pythonda dasturlash asoslari kitobi" width="510" height="510" srcset="img\python-book.jpg 1x, img/img/python-book@2x.jpg 2x  ">
+            </div>
 
-            <section>
 
-            <!-- feature -->
-            <h2>Nega aynan Akademnashr?</h2>
+            <img " class="hero-img" src="img/python-book.jpg" alt="Qo'lda ushlab turilgan Pythonda dasturlash asoslari kitobi" width="510" height="510" srcset="img\python-book.jpg 1x, img/img/python-book@2x.jpg 2x " >
 
+           </section>
+
+
+
+            <!-- Feature -->
+
+            <section class="features">
+            <hr class="orange-line">
+            <h2 class="features-heading"> Nega aynan Akademnashr?</h2>
             <ul>
               <li>
-                <img src="img/icon-cursor-click.svg" alt="" width="56" height="56">
-                <h3>Oson buyurtma qilish</h3>
+                <div class="feature-icon-wrapper"><img src="img/icon-cursor-click.svg" alt="" width="56" height="56">
+                </div>
+                <h3 class="feature-title">Oson buyurtma qilish</h3>
                 <p> Akademnashr.uz saytidan o’zingizga yoqqan kitobni sodda usulda buyurtma qila olasiz.</p>
-                <img src="img/icon-sparkles.svg" alt="" width="56" height="56">
-                <h3>Eng sara kitoblar</h3>
+                <div class="feature-icon-wrapper"><img src="img/icon-sparkles.svg" alt="" width="56" height="56">
+                </div>
+                <h3 class="feature-title">Eng sara kitoblar</h3>
                 <p>Trenddagi eng ommabop, turli auditoriyalarga mo’ljallangan har xil janrdagi kitoblarni topa olasiz.</p>
-                <img src="img/icon-lightning-bolt.svg" alt="" width="56" height="56">
-                <h3>Tez yetkazib berish</h>
+                <div class="feature-icon-wrapper"><img src="img/icon-lightning-bolt.svg" alt="" width="56" height="56">
+                </div>
+                <h3 class="feature-title">Tez yetkazib berish</3h>
                   <p>O’zbekistonning ixtiyoriy hududiga 3 ish kuni ichida, xalqaro buyurtmalarni 10 ish kuni ichida yetkazib beriladi.</p>
                 </li>
               </ul>
-            </section>
+            </section >
 
 
 
@@ -76,9 +86,9 @@
 
               <p>Aksiyadagi eng katta to’plamda<strong> <em>50 ta kitobni</em></strong> <strong><em>350 ming </em></strong>so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
 
-              <a href="#">Buyurtma berish</a>
+              <a class="main-link" href="#">Buyurtma berish</a>
 
-              <img src="img/sale-img.jpg" alt="Kitoblar to'plami ustma ust joylangan" width="440" height="440" srcset="img/sale-img.jpg 1x, img/sale-img@2x.jpg 2x">
+              <img src="img/sale-img.jpg" alt="Kitoblar to'plami ustma ust joylangan" width="440" height="440" srcset="img/sale-img.jpg 1x, img/sale-img@2x.jpg 2x" class="picture">
             </section>
 
           </main>
