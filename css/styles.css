@@ -55,3 +55,13 @@ background-color: #ff7500;
   height: 100px;
   background-color: rgba(225, 117, 0, 0.2)
 }
+.feature-title{
+font-size: 24px;
+line-height: 1.2;
+letter-spacing: 0.5px;
+}
+.feature-info{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.5px;
+}
