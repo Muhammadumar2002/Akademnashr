@@ -1,7 +1,6 @@
 .site-header{
  background-color: #fff;
 }
-
 .sitenav-list{
   list-style: none;
 }
@@ -95,7 +94,7 @@ line-height: 1.5;
  color: #ff7500;
 }
 .promo-img{
-width: 44px;
+width: 440px;
 height: 440px;
 object-fit: cover;
 }
