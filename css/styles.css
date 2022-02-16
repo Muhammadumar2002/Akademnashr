@@ -11,8 +11,12 @@ body {
   align-items: center;
   background-color: #fff;
 }
-
+.site-header-actions{
+  display: flex;
+  align-items: center;
+}
 .sitenav-list{
+  display: flex;
   list-style: none;
 }
 .sitenav-link{
