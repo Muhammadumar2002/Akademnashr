@@ -36,8 +36,20 @@ opacity: 0.6;
 .sitenav-list{
   display: flex;
   padding: 0;
+  margin: 0;
+  margin-right: 32px;
   list-style: none;
 }
+.sitenav-item{
+  margin-right: 32px;
+}
+
+.sitenav-item:last-child{
+margin-right: 0;
+}
+
+
+
 .sitenav-link{
   font-weight: 500;
   font-size: 13px;
@@ -88,11 +100,14 @@ opacity: 0.6;
   width: 80px;
   height: 3px;
   border: none;
+  margin: 0;
+  margin-bottom: 40px;
   background-color: #ff7500;
 
 }
 .hero-heading{
   font-size: 40px;
+  margin-bottom: 24px;
   line-height: 1.2;
   font-family: "Roboto Condensed","Roboto", "Arial" sans-serif;
 }
@@ -106,6 +121,8 @@ opacity: 0.6;
   color: #fff;
 }
 .hero-text{
+  margin-top: 0;
+  margin-bottom: 32px;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -116,6 +133,8 @@ opacity: 0.6;
 
 .features-heading{
   font-weight: 440px;
+  margin-top: 0;
+  margin-bottom: 72px;
   font-size: 72px;
   line-height: 1.2;
   font-family:  "Roboto Condensed","Roboto", "Arial" sans-serif;
@@ -124,13 +143,16 @@ opacity: 0.6;
 
 .features-list{
   display: flex;
-  justify-content: space-between;
   padding: 0;
+  margin: 0;
   list-style: none;
+}
+.feature:last-child{
+margin-right: 0;
 }
 .feature{
   width: 340px;
-
+  margin-right: 40px;
 }
 .feature-icon-wrapper{
  display: flex;
@@ -161,9 +183,23 @@ opacity: 0.6;
   }
 
   .promo-heading{
+    margin-top: 0;
+    margin-bottom: 24px;
     font-size: 40px;
     line-height: 48px;
     font-family:  "Roboto Condensed","Roboto", "Arial" sans-serif;
+  }
+  promo-info-wrapper{
+    margin-bottom: 24px;
+  }
+
+  promo-text{
+   margin: 0;
+   margin-bottom: 12px;
+  }
+
+  .promo-text:last-child {
+    margin-bottom:  0;
   }
 
   .promo-highlight{
@@ -194,6 +230,15 @@ opacity: 0.6;
    display: flex;
    align-items: center;
    padding: 0;
+   margin: 0;
+  }
+
+  .site-footer-socials  li {
+  margin-right: 16px;
+  }
+
+  .site-footer-socials  li:last-child{
+    margin-right: 0;
   }
 
   .site-footer-socials a:hover{
@@ -202,6 +247,8 @@ opacity: 0.6;
  .site-footer-divider{
    height: 2px;
    border: 0;
+   margin-top: 40px;
+   margin-bottom: 64px;
    background-color: rgba(37, 36, 32, 0.5);
  }
 
@@ -212,8 +259,17 @@ opacity: 0.6;
   }
   .site-footer-links{
     width: 224px;
+    padding: 0;
+    margin: 0;
+    list-style: 0;
     line-height: 19px;
   }
+
+  .site-footer-links:last-child{
+  margin-right: 0;
+  }
+
+
   .site-footer-links a {
     text-decoration: none;
     color: #252420;
