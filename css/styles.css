@@ -157,16 +157,12 @@ margin-right: 0;
   line-height: 1.5;
 }
 .feature{
-  padding-top: 210px;
+  /* padding-top: 210px; */
   padding-bottom: 210px;
 }
 
 .features-container {
   padding-top: 210px;
-}
-
-.features-ln {
-
 }
 
 .features-heading{
