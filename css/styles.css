@@ -2,6 +2,15 @@
   box-sizing: border-box;
 }
 
+html{
+  height: 100%;
+}
+
+:root {
+  --roboto:"Roboto", Arial, sans-serif;
+  --condensed:"Roboto Condensed",Arial, sans-serif;
+}
+
 /* FONTS  */
 @font-face {
   font-family: "Roboto";
@@ -31,11 +40,14 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   padding: 0;
   margin: 0;
   font-size: 16px;
   line-height: 1.5;
-  font-family: "Roboto","Roboto Condensed",Arial, sans-serif;
+  font-family: var(--roboto);
   letter-spacing: 0.5px;
 }
 
@@ -57,7 +69,7 @@ margin-right: auto;
 /* SITE-HEADER  */
 .site-header{
   padding-top: 16px;
-  padding-bottom: 16px;
+  padding-bottom: 36px;
   border-top: 5px solid #ff7500;
   background-color: #fff;
   margin-bottom: 62px;
@@ -75,6 +87,7 @@ margin-right: auto;
 }
 
 .site-header__img {
+  margin-right: 10px;
   display: block;
 }
 
@@ -99,6 +112,7 @@ opacity: 0.6;
   list-style: none;
 }
 .sitenav__item{
+  white-space: nowrap;
   margin-right: 32px;
 }
 
@@ -143,6 +157,10 @@ margin-right: 0;
 
 .site-header__main-link:active{
   opacity: 0.6;
+}
+
+.main-content{
+  flex-grow: 1;
 }
 
 /* HERO  */
@@ -194,7 +212,7 @@ margin-right: 0;
 /* FEATURES  */
 .features {
   padding-top: 210px;
-  padding-bottom: 210px;
+  padding-bottom: 110px;
 }
 .features__orange-line {
   width: 80px;
@@ -220,8 +238,6 @@ margin-right: 0;
   margin: 0;
   list-style: none;
 }
-.feature {
-}
 .feature__icon-wrapper {
   display: flex;
   justify-content: center;
@@ -245,6 +261,7 @@ margin-right: 0;
   letter-spacing: 0.5px;
 }
 .feature__info {
+  margin: 0;
   max-width: 314px;
   font-family: 'Roboto';
   font-style: normal;
@@ -266,8 +283,8 @@ margin-right: 0;
 
 /* PROMO  */
   .promo{
+    padding-top: 100px;
     padding-bottom: 160px;
-    margin-bottom: 16px;
   }
 
   .promo__container {
@@ -289,7 +306,7 @@ margin-right: 0;
     margin-bottom: 24px;
     font-size: 40px;
     line-height: 48px;
-    font-family:  "Roboto Condensed","Roboto", "Arial" sans-serif;
+    font-family: var(--condensed) ;
   }
   .promo__info-wrapper{
     margin-bottom: 24px;
